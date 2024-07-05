@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.jambox{
+background-color: #000080 ;
+color: white;
+}
+
+.kabarjam{
+background-color: #000080 ;
+color: white;
+}
+
+body {
+  font-family: monospace;
+background-color: #87ceeb;
+}
+
+header {
+  display: inline;
+}
+
+.banner{
+display: block; */
+background-color: #00c8ea;
+padding: 16px;
+font-size: 28px;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #00a2c4;
+  /* background-color: #999; */
+  top: 0;
+  padding: 5px;
+  position: sticky;
+}
+
+nav ul {
+padding-left: 0;
+display: flex;
+  justify-content: center;
+}
+
+nav li {
+display: inline;
+  padding: 10px;
+  margin: 5px;
+  list-style: none;
+}
+
+nav li a {
+text-decoration: none;
+font-size: 1.05rem;
+font-weight: 500;
+color: green;
+padding: .5rem 1.5rem;
+border-radius: 999px;
+transition: all .3s ease-in-out;
+}
+nav li a:last-child {
+  margin-right: 20px;
+}
+nav li a:hover {
+  color: green;
+}
+
