@@ -1,0 +1,21 @@
+var Digital=new Date()
+var hours=Digital.getHours()
+if (hours>=5&&hours<=10)
+//MESSAGE FOR MORNING
+document.write('<p>'+'Selamat pagi, ayo kita isi pagi ini dengan semangat!'+'</p>')
+else if (hours>10&&hours<12)
+    document.write('<p>'+'Bentar lagi Dzuhur nih, siap-siap yuk!'+'</p>')
+else if (hours>=12&&hours<15)
+//MESSAGE FOR NOON
+document.write('<p>'+'Sekarang sudah siang, udah shalat Dzuhur belum?'+'</p>')
+else if(hours>=15&&hours<18)
+//MESSAGE FOR AFTERNOON
+document.write('<p>'+'Sudah sore nih, Sholat Ashar ya!'+'</p>')
+else if (hours>=18&&hours<19)
+//MESSAGE FOR EVENING (6pm-8pm)
+document.write('<p>'+'Hmm, Maghrib dulu donk.'+'</p>')
+else if (hours>=19&&hours<23)
+//MESSAGE FOR NIGHT (9pm-11pm)
+document.write('<p>'+'Oke kini malam, Shalat ISya ya sebelum tidur'+'</p>')
+else if(hours>=23&&hours<5)
+document.write('<p>'+'Begadang nih bro and sist?'+'</p>')
