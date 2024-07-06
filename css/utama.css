@@ -68,3 +68,74 @@ nav li a:hover {
   color: green;
 }
 
+main {
+  display: max-width: 1200px;
+width: 100%;
+display: flex;
+  padding: 20px;
+overflow: auto;
+}
+
+
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1.5;
+  gap: 1rem 2rem;
+}
+
+aside {
+  flex: 1;
+  flex-direction: column;
+  padding: 5px;
+  box-shadow: 0 1px 2px 1px;
+}
+
+aside img {
+  width: 160px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  border: 1.5px solid blue;
+}
+
+aside h2 {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+
+
+footer {
+padding: 20px;
+color: #ffff00;
+background: blue;
+}
+
+footer ul {
+padding-left: 0;
+display: flex;
+  justify-content: center;
+}
+footer li {
+display: inline;
+  padding: 10px;
+  margin: 5px;
+  list-style: none;
+}
+
+footer li a {
+text-decoration: none;
+font-size: 1.05rem;
+font-weight: 500;
+color: green;
+padding: .5rem 1.5rem;
+border-radius: 999px;
+transition: all .3s ease-in-out;
+}
+footer li a:last-child {
+  margin-right: 20px;
+}
+nav li a:hover {
+  color: green;
+}
