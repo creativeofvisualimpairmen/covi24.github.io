@@ -7,6 +7,7 @@
 .jambox{
 background-color: #000080 ;
 color: white;
+display: block;
 }
 
 .kabarjam{
@@ -138,4 +139,8 @@ footer li a:last-child {
 }
 nav li a:hover {
   color: green;
+}
+
+.kelasTentang {
+display: none;
 }
