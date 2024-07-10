@@ -105,7 +105,10 @@ aside h2 {
   text-align: center;
 }
 
+aside div {
+display: flex;
 
+}
 
 footer {
 padding: 20px;

@@ -74,12 +74,23 @@
 <h2>DAFTAR KARYA</h2>
 <div>
 <script>
+if (dataVideo.length < 10){
+for(let d = 0;
+d < dataVideo.length;
+d++)
+{
+document.write(dataVideo[d])
+}
+}
+else {
 for(let d = 0;
 d < 10;
 d++)
 {
 document.write(dataVideo[d])
 }
+}
+
 </script>
 </div>
 <div id="halSide">
