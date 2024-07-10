@@ -82,10 +82,14 @@ document.write(dataVideo[d])
 }
 </script>
 </div>
-<div>
+<div id="halSide">
 <script>
-if (utamaVideo => 10){
+if (dataVideo > 10){
 document.write('Halaman')
+}
+else {
+var halAside = document.getElementById('halSide');
+halAside.style.display = 'none';
 }
 </script>
 
