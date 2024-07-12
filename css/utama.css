@@ -106,8 +106,7 @@ aside h2 {
 }
 
 aside div {
-display: flex;
-
+display: block;
 }
 
 footer {
