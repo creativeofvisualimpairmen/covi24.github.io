@@ -47,13 +47,13 @@ display: flex:
 }
 
  .menu li {
-display: flex;
+display: inline;
 padding: 10px;
   margin: 5px;
   list-style: none;
 }
 
-.nav li a {
+.menu li a {
 text-decoration: none;
 font-size: 1.05rem;
 font-weight: 500;
@@ -146,4 +146,31 @@ nav li a:hover {
 
 .kelasTentang {
 display: none;
+}
+
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+/* Style the navigation menu */
+#videoCari {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the navigation links */
+#videoCari li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#videoCari li a:hover {
+  background-color: #eee;
 }

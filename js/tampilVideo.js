@@ -1,3 +1,19 @@
+function jamilahSimponiHitam(){
+var kontenUtama = document.getElementById("utama");
+kontenUtama.innerHTML = "<h2>SILAHKAN MENONTON</h2><hr>" +
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/XVTPhCDWDFk?si=UAEY5A3kVWHbr4il" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+}
+function adrianKutaBali(){
+var kontenUtama = document.getElementById("utama");
+kontenUtama.innerHTML = "<h2>SILAHKAN MENONTON</h2><hr>" +
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/AQjy02s4h60?si=MG2q1YfuSZPGAYsm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+}
+
+function azkaUnintended(){
+var kontenUtama = document.getElementById("utama");
+kontenUtama.innerHTML = "<h2>SILAHKAN MENONTON</h2><hr>" +
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/L6EA0v1P07Y?si=2Wpb288hmFhm22Wu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+}
 function harmoniMerakit(){
 var kontenUtama = document.getElementById("utama");
 kontenUtama.innerHTML = "<h2>SILAHKAN MENONTON</h2><hr>" +

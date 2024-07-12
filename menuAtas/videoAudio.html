@@ -25,20 +25,6 @@
             <a class="element-invisible element-focusable skip-link-search" href="#search-block-form">Langsung ke pencarian.</a>
             </div>
 
-            <div id="header-searchbox">
-                <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
-                <h2 class="element-invisible">Menu Pencarian</h2>
-                <div class="form-item form-type-textfield form-item-search-block-form">
-                <label class="element-invisible" for="edit-search-block-form--2">cari</label>
-                <input onblur="if (this.value == &#039;&#039;)
-                { this.value = &#039;search this site&#039;; }" onfocus="if (this.value == &#039;search this site&#039;) { this.value = &#039;&#039;; }" type="text" id="edit-search-block-form--2" name="search_block_form" value="search this site" size="12" maxlength="128" class="form-text" />
-                </div>
-                <div class="form-actions form-wrapper" id="edit-actions"></div><input type="hidden" name="form_build_id" value="form-2Ufo3srlOULEQWVhyg6znip4S6wAj16o-qMfw77aSTc" />
-                <input type="hidden" name="form_id" value="search_block_form" />
-                </div>
-                </div></form>        </div>
-                
-                
                 <div class="banner">
                     <h1 id="kop">Creative of visual Impairment</h1>
                 <img id="logo" src="https://iili.io/dKLp4Zx.md.png"  alt="logo kami">
@@ -61,6 +47,7 @@
 <script src="../js/tampilVideo1.js"></script>
 
 </div>
+
 <div id="idTentang" class="kelasTentang">
 <h2>TENTANG KAMI</b></h2><hr>
                         <p>Creative of Visual Impairmen tahun 2024 (COVI24) adalah komunitas yang mewadahi karya-karya tunanetra, baik berupa karya  tulisan< video, maupun audio. Selain itu juga kami menyediakan berbagai tutorial yang dapat digunakan tunanetra  dalam kehidupan sehari-hari.Disini juga kamu dapat mencari berbagai software/aplikasi yang dapat membantu.</p>
@@ -73,13 +60,21 @@
 <aside id="pinggir">
 <h2>DAFTAR KARYA</h2>
 <div>
+<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+
+
+</div>
+<div>
 <script>
+dataVideo.sort();
+document.write('<ul id="videoCari">');
 if (dataVideo.length < 10){
+
 for(let d = 0;
 d < dataVideo.length;
 d++)
 {
-document.write(dataVideo[d])
+document.write('<li>' + dataVideo[d] + '</li>')
 }
 }
 else {
@@ -92,6 +87,8 @@ document.write(dataVideo[d])
 }
 
 </script>
+
+
 </div>
 <div id="halSide">
 <script>
@@ -106,6 +103,8 @@ halAside.style.display = 'none';
 
 </div>
 
+
+
 </aside>
 
                 </main>
@@ -115,6 +114,10 @@ halAside.style.display = 'none';
 <li><button onclick="tentang()" id="tentangButton">Tentang Kami</button></li>
 <li><button onclick="donasi()">Donasi</button></li>
 <div id="kontenKaki" class="kontenKakiH">
+<script>
+let koplak = dataVideo.filter((user) => user.a === 'Jamilah');
+document.write(koplak);
+</script>
 </div>
 </footer>
     </body>
