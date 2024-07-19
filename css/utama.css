@@ -106,7 +106,7 @@ aside h2 {
 }
 
 aside div {
-display: block;
+display: flex;
 }
 
 footer {
@@ -147,29 +147,26 @@ nav li a:hover {
 display: none;
 }
 
-/* Style the search box */
-#mySearch {
+.listKaki{
   width: 100%;
   font-size: 18px;
   padding: 11px;
   border: 1px solid #ddd;
 }
 
-/* Style the navigation menu */
-#videoCari {
-  list-style-type: none;
+.listKaki li {
+  list-style-type: inline;
   padding: 0;
   margin: 0;
 }
 
-/* Style the navigation links */
-#videoCari li a {
+.listKaki li a {
   padding: 12px;
   text-decoration: none;
   color: black;
   display: block
 }
 
-#videoCari li a:hover {
+.listKakili a:hover {
   background-color: #eee;
 }

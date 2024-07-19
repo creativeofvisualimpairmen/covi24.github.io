@@ -22,16 +22,15 @@
         <header>
         <div id="skip-link">
             <a href="#utama">Lewat, langsung ke utama.</a>
-            <a class="element-invisible element-focusable skip-link-search" href="#search-block-form">Langsung ke pencarian.</a>
-            </div>
-
-                <div class="banner">
+            
+            <div class="banner">
                     <h1 id="kop">Creative of visual Impairment</h1>
                 <img id="logo" src="https://iili.io/dKLp4Zx.md.png"  alt="logo kami">
                 </div>
             
                 <nav class="menu">
             <ul>
+<li><a href="../index.html">Beranda</a></li>
                 <li><a href="karyaTulis.html">Karya Tulisan</a></li>
                 <li><a href="videoAudio.html">Karya video dan Audio</a></li>
 <li><a href="tutorial.html">Aneka Tutorial</a></li>
@@ -60,16 +59,10 @@
 <aside id="pinggir">
 <h2>DAFTAR KARYA</h2>
 <div>
-<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
-
-
-</div>
-<div>
+<ul id="listKarya" class="listKaryaKelas">
 <script>
 dataVideo.sort();
-document.write('<ul id="videoCari">');
 if (dataVideo.length < 10){
-
 for(let d = 0;
 d < dataVideo.length;
 d++)
@@ -82,13 +75,13 @@ for(let d = 0;
 d < 10;
 d++)
 {
-document.write(dataVideo[d])
+document.write('<li>' + dataVideo[d] + '</li>')
 }
 }
 
 </script>
 
-
+</ul>
 </div>
 <div id="halSide">
 <script>
@@ -110,7 +103,7 @@ halAside.style.display = 'none';
                 </main>
 <footer>
 <script src="../js/footer.js"></script>
-<ul>
+<ul class="listKaki">
 <li><button onclick="tentang()" id="tentangButton">Tentang Kami</button></li>
 <li><button onclick="donasi()">Donasi</button></li>
 <div id="kontenKaki" class="kontenKakiH">

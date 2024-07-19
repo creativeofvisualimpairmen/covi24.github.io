@@ -17,21 +17,8 @@
         <header>
         <div id="skip-link">
             <a href="#utama">Lewat, langsung ke utama.</a>
-            <a class="element-invisible element-focusable skip-link-search" href="#search-block-form">Langsung ke pencarian.</a>
             </div>
 
-            <div id="header-searchbox">
-                <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
-                <h2 class="element-invisible">Menu Pencarian</h2>
-                <div class="form-item form-type-textfield form-item-search-block-form">
-                <label class="element-invisible" for="edit-search-block-form--2">cari</label>
-                <input onblur="if (this.value == &#039;&#039;)
-                { this.value = &#039;search this site&#039;; }" onfocus="if (this.value == &#039;search this site&#039;) { this.value = &#039;&#039;; }" type="text" id="edit-search-block-form--2" name="search_block_form" value="search this site" size="12" maxlength="128" class="form-text" />
-                </div>
-                <div class="form-actions form-wrapper" id="edit-actions"></div><input type="hidden" name="form_build_id" value="form-2Ufo3srlOULEQWVhyg6znip4S6wAj16o-qMfw77aSTc" />
-                <input type="hidden" name="form_id" value="search_block_form" />
-                </div>
-                </div></form>        </div>
                 
                 
                 <div class="banner">
@@ -41,7 +28,8 @@
             
                 <nav class="menu">
             <ul>
-                <li><a href="menuAtas/karyaTulis.html">Karya Tulisan</a></li>
+<li><a href="index.html">Beranda</a></li>
+                                <li><a href="menuAtas/karyaTulis.html">Karya Tulisan</a></li>
                 <li><a href="menuAtas/videoAudio.html">Karya video dan Audio</a></li>
 <li><a href="menuAtas/tutorial.html">Aneka Tutorial</a></li>
 <li><a href="menuAtas/dokumentasi.html">Dokumentasi</a></li>
@@ -54,12 +42,16 @@
                 <main>
 
                     <div id="utama" class="content">
-                        <h2>TENTANG KAMI</b></h2><hr>
+
+                        </div>
+<div id="idTentang" class="kelasTentang">
+<h2>TENTANG KAMI</b></h2><hr>
                         <p>Creative of Visual Impairmen tahun 2024 (COVI24) adalah komunitas yang mewadahi karya-karya tunanetra, baik berupa karya  tulisan< video, maupun audio. Selain itu juga kami menyediakan berbagai tutorial yang dapat digunakan tunanetra  dalam kehidupan sehari-hari.Disini juga kamu dapat mencari berbagai software/aplikasi yang dapat membantu.</p>
 <p>Pada awalnya terbentuk pemikiran untuk membentuk komunitas ini karena banyak teman-teman disabilitas netra yang berkarya namun tidak terwadahi. Sehingga karya-karya tersebut tersebar secara terpisah-pisah dan lama-kelamaan terbuang begitu saja. Dan banyak juga kawan-kawan ini bingung untuk meng-eksist-kan karya mereka. Katanya mereka: </p>
 <p> "Mau diupload di status Whatsapp, besok juga ilang, lagian juga nyimpen nomer cuma dikit. Di Facebook juga temannya dikit. Mau di Youtube, subcribernya juga dikit."
 </p>
 <h3>Maka, SOLUSINYA disini, hehehehe!!!</h3> 
+
 </div>
 
 <aside id="pinggir">
@@ -87,6 +79,10 @@
 
                 </main>
 <footer>
+<script src="js/footer.js"></script>
+<ul class="kaki">
+<li><button onclick="tentang()" id="tentangButton">Tentang Kami</button></li>
+<li><button onclick="donasi()">Donasi</button></li>
 <div id="kontenKaki" class="kontenKakiH">
 </div>
 </footer>
