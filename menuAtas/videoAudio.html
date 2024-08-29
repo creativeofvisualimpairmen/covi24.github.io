@@ -7,10 +7,10 @@
 <link rel="stylesheet" href="../css/utama.css">
 <script src="../js/jam.js"></script>
 <script src="../js/noticeJam.js"></script>    
-<script src="../js/videoUtama.js"></script>
-<script src="../js/tampilVideo.js"></script>
-<script src="../js/data-video.js"></script>
-
+<script src="../js/karya-video/videoUtama.js"></script>
+<script src="../js/karya-video/tampilVideo.js"></script>
+<script src="../js/karya-video/data-video.js"></script>
+<script src="../js/karya-video/halVideo1.js"></script>
 <div id="clockbox" class="jambox" style="text-align: right;">
          </div>   
 
@@ -32,7 +32,8 @@
             <ul>
 <li><a href="../index.html">Beranda</a></li>
                 <li><a href="karyaTulis.html">Karya Tulisan</a></li>
-                <li><a href="videoAudio.html">Karya video dan Audio</a></li>
+                <li><a href="videoAudio.html">Karya video </a></li>
+<li><a href="menuAtas/audio.html">Karya Audio</a></li>
 <li><a href="tutorial.html">Aneka Tutorial</a></li>
 <li><a href="dokumentasi.html">Dokumentasi</a></li>
 <li><a href="profil.html">Profil Anggota</a></li>
@@ -43,7 +44,7 @@
                 <main>
                     <div id="utama" class="content">
                         <h2>Video Terbaru</h2><hr>
-<script src="../js/tampilVideo1.js"></script>
+<script src="../js/karya-video/tampilVideo1.js"></script>
 
 </div>
 
@@ -62,41 +63,20 @@
 <ul id="listKarya" class="listKaryaKelas">
 <script>
 dataVideo.sort();
-if (dataVideo.length < 10){
-for(let d = 0;
-d < dataVideo.length;
-d++)
-{
-document.write('<li>' + dataVideo[d] + '</li>')
-}
-}
-else {
 for(let d = 0;
 d < 10;
 d++)
 {
 document.write('<li>' + dataVideo[d] + '</li>')
 }
-}
-
 </script>
 
 </ul>
 </div>
 <div id="halSide">
-<script>
-if (dataVideo > 10){
-document.write('Halaman')
-}
-else {
-var halAside = document.getElementById('halSide');
-halAside.style.display = 'none';
-}
+<script src="../js/karya-video/halVideo.js">
 </script>
-
 </div>
-
-
 
 </aside>
 

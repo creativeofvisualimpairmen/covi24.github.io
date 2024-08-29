@@ -7,4 +7,9 @@ var dataVideo = [
 '<A onclick="azkaUnholy()">Azka Guitar Cover - Avenged Seven Fold - Unholy Conffession</a>',
 '<a onclick="harmoniEs()">Harmoni Jiwa Cover - Es Lilin</a>',
 '<a onclick="jamilahTakInginUsai()">Jamilah dkk Cover - Keisya Levronka - Tak Ingin Usai</a>',
-'<a onclick="jamilahArof73()">Jamilah Al-Arof 73-77</a>'];
+'<a onclick="jamilahArof73()">Jamilah Al-Arof 73-77</a>',
+'<a onclick="wahyuSekecewaItu()">Wahyu dan Silvia cover - Angga Candra - Sekecewa Itu</a>',
+'<a onclick="wahyuJanjiSuci()">Wahyu cover - Yovie & Nuno - Janji Suci</a>',
+'<a onclick="wahyuBidadariTakBersayap()">Wahyu cover - Angie - Bidadari TAk Bersayap</a>',
+'<a onclick="azkaHisteria()">Azka Bass cover - Muse- Hysteria</a>'
+];

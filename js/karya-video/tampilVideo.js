@@ -49,3 +49,27 @@ var kontenUtama = document.getElementById("utama");
 kontenUtama.innerHTML = '<h2>SELAMAT MENONTON</h2><hr>' +
 utamaVideo[8];
 }
+
+function wahyuSekecewaItu(){
+var kontenUtama = document.getElementById("utama");
+kontenUtama.innerHTML = '<h2>SELAMAT MENONTON</h2><hr>' +
+utamaVideo[9];
+}
+
+function wahyuJanjiSuci(){
+var kontenUtama = document.getElementById("utama");
+kontenUtama.innerHTML = '<h2>SELAMAT MENONTON</h2><hr>' +
+utamaVideo[10];
+}
+
+function wahyuBidadariTakBersayap(){
+var kontenUtama = document.getElementById("utama");
+kontenUtama.innerHTML = '<h2>SELAMAT MENONTON</h2><hr>' +
+utamaVideo[11];
+}
+
+function azkaHisteria(){
+var kontenUtama = document.getElementById("utama");
+kontenUtama.innerHTML = '<h2>SELAMAT MENONTON</h2><hr>' +
+utamaVideo[12];
+}
